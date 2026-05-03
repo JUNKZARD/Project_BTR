@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import ProductCard from "@/components/ProductCard";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+import Image from "next/image";
 
 const products = [
   {

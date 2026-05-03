@@ -20,7 +20,7 @@ export default function ProductCard({
           </span>
         )}
         <img
-          src="/api/placeholder/400/500"
+          src="/blueberries frozen.webp"
           alt={name}
           className="w-full h-full object-cover group-hover:scale-105 transition duration-700 ease-in-out"
         />

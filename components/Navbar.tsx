@@ -2,20 +2,21 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center px-10 py-6 bg-white sticky top-0 z-50 border-b border-gray-50">
-      <Link
-        href="/Beranda"
-        className="text-red-800 font-serif italic text-xl font-bold"
-      >
+    <nav className="flex justify-between items-center px-6 md:px-12 py-6 bg-white sticky top-0 z-50 border-b border-gray-50">
+      {/* Brand Logo */}
+      <div className="text-red-800 font-serif italic text-xl font-bold tracking-tighter">
         Bali Taru Rahayu
-      </Link>
+      </div>
 
+      {/* Menu Links */}
       <div className="hidden md:flex gap-8 text-[11px] font-bold uppercase tracking-[0.2em] text-gray-500">
-        {/* Link ke halaman katalog baru */}
-        <Link href="/katalog" className="hover:text-red-800 transition">
+        <Link
+          href="/Beranda"
+          className="text-red-800 border-b border-red-800 pb-1"
+        >
           Shop Jams
         </Link>
-        <Link href="#" className="hover:text-red-800 transition">
+        <Link href="/katalog" className="hover:text-red-800 transition">
           Frozen Fruit
         </Link>
         <Link href="#" className="hover:text-red-800 transition">

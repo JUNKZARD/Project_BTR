@@ -2,11 +2,11 @@ export default function Hero() {
   return (
     <section className="relative h-[550px] w-full flex items-center bg-gray-300">
       {/* Background Image Overlay - Ganti src dengan gambar produk jarmu */}
-      <div className="absolute inset-0 opacity-60">
+      <div className="absolute inset-0 opacity-60 flex justify-end">
         <img
-          src="/hero-background.jpg"
+          src="/logo.webp"
           alt="Jam Collection"
-          className="w-full h-full object-cover"
+          className="h-{1900px} w-auto object-cover"
         />
       </div>
 

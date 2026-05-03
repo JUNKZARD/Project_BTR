@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+import Image from "next/image";
 
 const catalogProducts = [
   {
@@ -105,7 +106,7 @@ export default function KatalogPage() {
                   </span>
                 )}
                 <img
-                  src="/api/placeholder/400/400"
+                  src="/kintamani-orange-frozen.webp"
                   alt={item.name}
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />

@@ -6,6 +6,7 @@ import Link from "next/link";
 
 const products = [
   {
+    slug: "pink-guava-jam",
     name: "Pink Guava Jam",
     price: 14.0,
     tag: "TOP SELLER",
@@ -13,6 +14,7 @@ const products = [
     img: "/pink guava frozen.webp", // Sesuaikan dengan file di public
   },
   {
+    slug: "mangga-jam",
     name: "Mango Jam",
     price: 12.0,
     tag: "SEASONAL",
@@ -20,6 +22,7 @@ const products = [
     img: "/mango frozen.webp",
   },
   {
+    slug: "strawberry-jam",
     name: "Strawberry Jam",
     price: 14.0,
     tag: "",
@@ -27,6 +30,7 @@ const products = [
     img: "/Strawberry 280.webp", // Sesuai screenshot VS Code
   },
   {
+    slug: "kintamani-orange-jam",
     name: "Kintamani Orange Marmalade",
     price: 16.0,
     tag: "",
@@ -51,7 +55,7 @@ export default function Home() {
           </div>
           {/* Menggunakan Link untuk navigasi ke halaman katalog */}
           <Link
-            href="/"
+            href="/katalog"
             className="text-sm font-medium hover:underline text-gray-700"
           >
             View All →

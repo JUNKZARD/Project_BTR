@@ -11,17 +11,22 @@ export default function Navbar() {
     <nav className="flex justify-between items-center px-6 md:px-12 py-6 bg-white sticky top-0 z-50 border-b border-gray-50">
       <Link
         href="/"
-        className="text-red-800 font-serif italic text-xl font-bold tracking-tighter"
+        className="flex items-center gap-3 text-red-800 font-serif italic text-xl font-bold tracking-tighter"
       >
+        <img 
+          src="/logo-baru.webp" 
+          alt="Bali Taru Rahayu Logo" 
+          className="h-10 w-auto object-contain" 
+        />
         Bali Taru Rahayu
       </Link>
 
       <div className="hidden md:flex gap-8 text-[11px] font-bold uppercase tracking-[0.2em]">
         {/* Link ke Folder Jems */}
         <Link
-          href="/jems"
+          href="/katalog/jams"
           className={`relative pb-1 transition-colors duration-300 ${
-            isActive("/jems")
+            isActive("/katalog/jams")
               ? "text-red-800"
               : "text-gray-500 hover:text-red-800"
           }`}
@@ -29,16 +34,16 @@ export default function Navbar() {
           Shop Jams
           <span
             className={`absolute left-0 bottom-0 h-[2px] bg-red-800 transition-all duration-300 ${
-              isActive("/jems") ? "w-full" : "w-0"
+              isActive("/katalog/jams") ? "w-full" : "w-0"
             }`}
           />
         </Link>
 
         {/* Link ke Folder Frozen */}
         <Link
-          href="/frozen"
+          href="/katalog/frozen"
           className={`relative pb-1 transition-colors duration-300 ${
-            isActive("/frozen")
+            isActive("/katalog/frozen")
               ? "text-red-800"
               : "text-gray-500 hover:text-red-800"
           }`}
@@ -46,7 +51,7 @@ export default function Navbar() {
           Frozen Fruit
           <span
             className={`absolute left-0 bottom-0 h-[2px] bg-red-800 transition-all duration-300 ${
-              isActive("/frozen") ? "w-full" : "w-0"
+              isActive("/katalog/frozen") ? "w-full" : "w-0"
             }`}
           />
         </Link>

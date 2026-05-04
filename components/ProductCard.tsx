@@ -3,6 +3,7 @@ interface ProductProps {
   price: number;
   tag?: string;
   subTag: string;
+  img: string; // Tambahkan prop untuk path gambar
 }
 
 export default function ProductCard({
@@ -10,19 +11,20 @@ export default function ProductCard({
   price,
   tag,
   subTag,
+  img,
 }: ProductProps) {
   return (
     <div className="group cursor-pointer">
-      <div className="relative aspect-[4/5] bg-gray-300 overflow-hidden rounded-md shadow-sm">
+      <div className="relative aspect-[4/5] bg-[#F3F3F1] overflow-hidden rounded-md shadow-sm">
         {tag && (
           <span className="absolute top-4 left-4 bg-red-100 text-red-700 text-[9px] font-black px-2 py-1 rounded z-10 uppercase tracking-tighter">
             {tag}
           </span>
         )}
         <img
-          src="/blueberries frozen.webp"
+          src={img} // Gunakan variabel img di sini
           alt={name}
-          className="w-full h-full object-cover group-hover:scale-105 transition duration-700 ease-in-out"
+          className="w-full h-h-full object-cover group-hover:scale-105 transition duration-700 ease-in-out"
         />
       </div>
       <div className="mt-5 space-y-1">

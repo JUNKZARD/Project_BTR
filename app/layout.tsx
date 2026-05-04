@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ProductCard from "@/components/ProductCard";
-import KatalogPage from "@/app/katalog/page";
+import KatalogPage from "@/app/Frozen/page";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

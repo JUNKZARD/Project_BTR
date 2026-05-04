@@ -3,7 +3,6 @@ import Hero from "@/components/Hero";
 import ProductCard from "@/components/ProductCard";
 import Footer from "@/components/Footer";
 import Link from "next/link";
-import Image from "next/image";
 
 const products = [
   {
@@ -11,14 +10,28 @@ const products = [
     price: 14.0,
     tag: "TOP SELLER",
     subTag: "NO SUGAR ADDED",
+    img: "/pink guava frozen.webp", // Sesuaikan dengan file di public
   },
-  { name: "Mango Jam", price: 12.0, tag: "SEASONAL", subTag: "VEGAN" },
-  { name: "Strawberry Jam", price: 14.0, tag: "", subTag: "ORGANIC" },
+  {
+    name: "Mango Jam",
+    price: 12.0,
+    tag: "SEASONAL",
+    subTag: "VEGAN",
+    img: "/mango frozen.webp",
+  },
+  {
+    name: "Strawberry Jam",
+    price: 14.0,
+    tag: "",
+    subTag: "ORGANIC",
+    img: "/Strawberry 280.webp", // Sesuai screenshot VS Code
+  },
   {
     name: "Kintamani Orange Marmalade",
     price: 16.0,
     tag: "",
     subTag: "AWARD WINNING",
+    img: "/Salinan kintamani orange duo dgn buah.webp",
   },
 ];
 
@@ -36,12 +49,13 @@ export default function Home() {
               The freshest seasonal flavors just out of the kitchen.
             </p>
           </div>
-          <a
-            href="#"
+          {/* Menggunakan Link untuk navigasi ke halaman katalog */}
+          <Link
+            href="/katalog"
             className="text-sm font-medium hover:underline text-gray-700"
           >
             View All →
-          </a>
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

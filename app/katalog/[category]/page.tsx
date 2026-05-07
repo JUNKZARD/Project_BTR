@@ -33,7 +33,7 @@ export default async function CategoryPage(props: { params: Promise<{ category: 
       <Navbar />
 
       <header className="max-w-7xl mx-auto px-6 pt-16 pb-10 text-center lg:text-left">
-        <h1 className="text-4xl font-serif text-gray-900 mb-4 tracking-tight capitalize">
+        <h1 className="text-4xl text-gray-900 mb-4 tracking-tight capitalize">
           {title}
         </h1>
         <p className="text-gray-500 max-w-2xl text-sm leading-relaxed mx-auto lg:mx-0">

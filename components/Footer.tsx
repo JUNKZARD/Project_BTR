@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12 text-sm text-gray-600">
         {/* Deskripsi Brand */}
         <div className="space-y-4">
-          <h4 className="font-serif italic text-red-800 text-lg font-bold">
+          <h4 className="italic text-red-800 text-lg font-bold">
             Organic Harvest
           </h4>
           <p className="leading-relaxed">
@@ -26,23 +26,13 @@ export default function Footer() {
           </h4>
           <ul className="space-y-3 text-xs">
             <li>
-              <a href="#" className="hover:text-red-800 transition">
+              <a href="/katalog/jams" className="hover:text-red-800 transition">
                 Shop Jams
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-red-800 transition">
+              <a href="/katalog/frozen" className="hover:text-red-800 transition">
                 Frozen Fruit
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-red-800 transition">
-                Gift Sets
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-red-800 transition">
-                Kitchenware
               </a>
             </li>
           </ul>

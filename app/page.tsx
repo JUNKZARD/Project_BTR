@@ -11,7 +11,7 @@ const products = [
     price: 14.0,
     tag: "TOP SELLER",
     subTag: "NO SUGAR ADDED",
-    img: "/pink guava frozen.webp", // Sesuaikan dengan file di public
+    img: "/Salinan P.G 280 front.webp", 
   },
   {
     slug: "mangga-jam",
@@ -19,7 +19,7 @@ const products = [
     price: 12.0,
     tag: "SEASONAL",
     subTag: "VEGAN",
-    img: "/mango frozen.webp",
+    img: "/Salinan Mango Jam 280 (2).webp",
   },
   {
     slug: "strawberry-jam",
@@ -27,7 +27,7 @@ const products = [
     price: 14.0,
     tag: "",
     subTag: "ORGANIC",
-    img: "/Strawberry 280.webp", // Sesuai screenshot VS Code
+    img: "/Strawberry 280 g.webp", 
   },
   {
     slug: "kintamani-orange-jam",
@@ -48,7 +48,7 @@ export default function Home() {
       <section className="max-w-7xl mx-auto px-6 py-16">
         <div className="flex justify-between items-end mb-8">
           <div>
-            <h2 className="text-3xl font-serif text-gray-800">Top Seller</h2>
+            <h2 className="text-3xl text-gray-800">Top Seller</h2>
             <p className="text-sm text-gray-500 mt-1">
               The freshest seasonal flavors just out of the kitchen.
             </p>

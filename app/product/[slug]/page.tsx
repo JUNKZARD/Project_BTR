@@ -55,16 +55,16 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
             </div>
 
             {/* Title & Subtitle */}
-            <h1 className="text-4xl md:text-5xl font-serif text-gray-900 leading-tight mb-2">
+            <h1 className="text-4xl md:text-5xl text-gray-900 leading-tight mb-2">
               {product.name}
             </h1>
-            <p className="text-lg text-gray-500 italic font-serif mb-6">
+            <p className="text-lg text-gray-500 italic mb-6">
               {isJam ? "Traditional copper-kettle method" : "Flash-frozen at peak ripeness"}
             </p>
 
             {/* Price */}
             <div className="flex items-end gap-3 mb-6">
-              <span className="text-3xl font-serif text-red-800 font-bold">
+              <span className="text-3xl text-red-800 font-bold">
                 ${product.price.toFixed(2)}
               </span>
               {product.originalPrice && (
@@ -93,16 +93,7 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
               {product.description}
             </p>
 
-            {/* Size info */}
-            <div className="border-t border-gray-200 pt-6 mb-2">
-              <div className="flex justify-between items-center mb-3">
-                <span className="text-xs font-bold text-gray-900 uppercase tracking-widest">Size</span>
-                <span className="text-xs text-gray-500">{product.detail}</span>
-              </div>
-              <div className="border border-red-800 rounded-full px-4 py-3 text-center cursor-pointer hover:bg-red-50 transition">
-                <span className="text-sm font-bold text-red-800">Select Size</span>
-              </div>
-            </div>
+            {/* Size info removed */}
 
             {/* Order Form */}
             <OrderForm product={product} />

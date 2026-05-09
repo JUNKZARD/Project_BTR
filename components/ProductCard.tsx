@@ -43,7 +43,7 @@ export default function ProductCard({
         <h3 className="text-lg text-gray-900 leading-tight">
           {name}
         </h3>
-        <p className="text-red-800 font-bold text-sm">${price.toFixed(2)}</p>
+        <p className="text-red-800 font-bold text-sm">Rp {price.toLocaleString('id-ID')}</p>
         <p className="text-[10px] pt-1 text-green-700 font-extrabold tracking-widest uppercase">
           {subTag}
         </p>

@@ -65,11 +65,11 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
             {/* Price */}
             <div className="flex items-end gap-3 mb-6">
               <span className="text-3xl text-red-800 font-bold">
-                ${product.price.toFixed(2)}
+                Rp {product.price.toLocaleString('id-ID')}
               </span>
               {product.originalPrice && (
                 <span className="text-lg text-gray-400 line-through pb-1">
-                  ${product.originalPrice.toFixed(2)}
+                  Rp {product.originalPrice.toLocaleString('id-ID')}
                 </span>
               )}
             </div>

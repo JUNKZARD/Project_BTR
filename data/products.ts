@@ -11,6 +11,7 @@ export interface Product {
 }
 
 export const productsData: Record<string, Product[]> = {
+  // jams 280g
   jams: [
     {
       slug: "durian-jam",
@@ -18,7 +19,7 @@ export const productsData: Record<string, Product[]> = {
       price: 80000,
       detail: "280g Jar",
       tag: "SMALL BATCH",
-      img: "/Salinan Durian 280 front.webp",
+      img: "/Durian 280.webp",
       description:
         "Our Durian Jam is crafted using hand-foraged durians from high-altitude slopes. We slow-simmer each batch in copper kettles with organic wildflower honey and a hint of lemon zest to preserve the vibrant, tart soul of the fruit.",
       benefits: ["Non-GMO", "No Refined Sugar", "Small Batch"],
@@ -30,7 +31,7 @@ export const productsData: Record<string, Product[]> = {
       originalPrice: 280000,
       detail: "280g Jar",
       tag: "",
-      img: "/Salinan P.G 280 front.webp",
+      img: "/Pink guava 280.webp",
       description:
         "Sweet, tropical pink guava reduced slowly to capture its vibrant aroma and natural sweetness. Perfect on toasted sourdough or mixed into yogurt.",
       benefits: ["Non-GMO", "No Refined Sugar", "Vegan"],
@@ -41,7 +42,7 @@ export const productsData: Record<string, Product[]> = {
       price: 70000,
       detail: "280g Jar",
       tag: "",
-      img: "/Salinan Pinneaple Jam 280g (2).webp",
+      img: "/Pineapple.webp",
       description:
         "Sun-ripened pineapples from Bali cooked down to a sweet, tangy spread. A bright, tropical burst of flavor for your morning toast.",
       benefits: ["Non-GMO", "Organic", "Vegan"],
@@ -52,7 +53,7 @@ export const productsData: Record<string, Product[]> = {
       price: 70000,
       detail: "280g Jar",
       tag: "",
-      img: "/Salinan Mulberry mix 280, 145 & box.webp",
+      img: "/Mulberry 280.webp",
       description:
         "A rich, complex mix of locally grown mulberries and complementary berries, offering a perfect balance of tartness and natural sweetness.",
       benefits: ["Non-GMO", "No Refined Sugar"],
@@ -64,7 +65,7 @@ export const productsData: Record<string, Product[]> = {
       originalPrice: 70000,
       detail: "280g Jar",
       tag: "",
-      img: "/Salinan kintamani orange duo dgn buah.webp",
+      img: "/Kintamani 280.webp",
       description:
         "Made from the famous sweet Kintamani oranges, this marmalade-style jam brings a bright, citrusy zest with a beautifully balanced sweetness.",
       benefits: ["Non-GMO", "Organic", "Vegan"],
@@ -75,7 +76,7 @@ export const productsData: Record<string, Product[]> = {
       price: 70000,
       detail: "280g Jar",
       tag: "",
-      img: "/Salinan Mang lemongrass 280, lemon, & lemon ginger 145 (7).webp",
+      img: "/Mango Lemongrass 280.webp",
       description:
         "An exotic fusion of ripe mangoes and fragrant lemongrass. This unique jam offers a refreshing, aromatic twist on a tropical classic.",
       benefits: ["Non-GMO", "No Refined Sugar", "Small Batch"],
@@ -84,9 +85,9 @@ export const productsData: Record<string, Product[]> = {
       slug: "mangga-passion-fruit-jam",
       name: "Mangga Passion Fruit Jam",
       price: 70000,
-      detail: "280g Jar",
+      detail: "",
       tag: "",
-      img: "/Salinan Mang. passionfruit 280, 145 (2).webp",
+      img: "/Mango passion 280.webp",
       description:
         "The sweetness of mango perfectly balanced by the sharp, tangy brightness of fresh passion fruit.",
       benefits: ["Non-GMO", "Organic", "Vegan"],
@@ -97,7 +98,7 @@ export const productsData: Record<string, Product[]> = {
       price: 70000,
       detail: "280g Jar",
       tag: "",
-      img: "/Salinan Mango Jam 280 (2).webp",
+      img: "/Mango jam 280.webp",
       description:
         "Pure, sweet mango jam made from the finest seasonal harvest. A simple, vibrant taste of the tropics.",
       benefits: ["Non-GMO", "Vegan"],
@@ -108,7 +109,7 @@ export const productsData: Record<string, Product[]> = {
       price: 70000,
       detail: "280g Jar",
       tag: "",
-      img: "/Salinan Mangvan 280 & straw 280 box (9).webp",
+      img: "/Manggo vanila 280.webp",
       description:
         "Smooth mango jam infused with real vanilla bean. A decadent, creamy flavor profile that feels like dessert.",
       benefits: ["Non-GMO", "No Refined Sugar"],
@@ -119,7 +120,7 @@ export const productsData: Record<string, Product[]> = {
       price: 70000,
       detail: "280g Jar",
       tag: "",
-      img: "/Strawberry 280 g.webp",
+      img: "/Strawberry 280.webp",
       description:
         "A signature blend of mountain berries slow-cooked to perfection. Sweet, slightly tart, and incredibly versatile.",
       benefits: ["Non-GMO", "Organic", "Small Batch"],
@@ -130,7 +131,7 @@ export const productsData: Record<string, Product[]> = {
       price: 70000,
       detail: "280g Jar",
       tag: "",
-      img: "/Blueberry Mix 145 & 280 (2).webp",
+      img: "/Blueberry 280.webp",
       description:
         "A robust mixture of wild blueberries and dark fruits. Rich in antioxidants and deep in flavor.",
       benefits: ["Non-GMO", "No Refined Sugar", "Vegan"],
@@ -142,7 +143,7 @@ export const productsData: Record<string, Product[]> = {
       price: 42000,
       detail: "145g Jar",
       tag: "",
-      img: "/Salinan P.G 145 front.webp",
+      img: "/Pink guava 145.webp",
       description:
         "Sweet, tropical pink guava reduced slowly to capture its vibrant aroma and natural sweetness.",
       benefits: ["Non-GMO", "No Refined Sugar", "Vegan"],
@@ -153,7 +154,7 @@ export const productsData: Record<string, Product[]> = {
       price: 42000,
       detail: "145g Jar",
       tag: "",
-      img: "/Blueberry 145 front.webp",
+      img: "/Blueberry 145.webp",
       description:
         "A robust mixture of wild blueberries and dark fruits. Rich in antioxidants and deep in flavor.",
       benefits: ["Non-GMO", "No Refined Sugar", "Vegan"],
@@ -162,9 +163,9 @@ export const productsData: Record<string, Product[]> = {
       slug: "mangga-passion-fruit-jam-145",
       name: "Mangga Passion Fruit Jam (145g)",
       price: 42000,
-      detail: "145g Jar",
+      detail: "",
       tag: "",
-      img: "/Salinan Mang. passionfruit 280, 145 (2).webp",
+      img: "/Manggo passion 280.webp",
       description:
         "The sweetness of mango perfectly balanced by the sharp, tangy brightness of fresh passion fruit.",
       benefits: ["Non-GMO", "Organic", "Vegan"],
@@ -200,7 +201,7 @@ export const productsData: Record<string, Product[]> = {
       price: 135000,
       detail: "1 Kg Pack",
       tag: "",
-      img: "/blueberries frozen.webp",
+      img: "/Blueberies freze.webp",
       description:
         "Wild blueberries flash-frozen immediately after harvest to lock in their peak nutritional value and vibrant flavor.",
       benefits: ["Non-GMO", "Organic", "Raw"],
@@ -211,7 +212,7 @@ export const productsData: Record<string, Product[]> = {
       price: 85000,
       detail: "1 Kg Pack",
       tag: "",
-      img: "/mango frozen.webp",
+      img: "/Mango freze.webp",
       description:
         "Perfectly ripe mangoes, peeled, sliced, and frozen. The ultimate convenience for smoothies, desserts, or healthy snacking.",
       benefits: ["Non-GMO", "No Added Sugar", "Vegan"],
@@ -222,7 +223,7 @@ export const productsData: Record<string, Product[]> = {
       price: 160000,
       detail: "1 Kg Pack",
       tag: "",
-      img: "/raspberries frozen.webp",
+      img: "/rasberries freze.webp",
       description:
         "Delicate raspberries preserved at the height of freshness. Excellent for baking or blending.",
       benefits: ["Non-GMO", "Organic", "Raw"],
@@ -233,7 +234,7 @@ export const productsData: Record<string, Product[]> = {
       price: 90000,
       detail: "1kg Pack",
       tag: "NEW",
-      img: "/kintamani-orange-frozen.webp",
+      img: "/Kintamani orange freze.webp",
       description:
         "Freshly segmented Kintamani oranges, frozen to preserve their bright, juicy characteristics without any preservatives.",
       benefits: ["Non-GMO", "No Added Sugar", "Small Batch"],
@@ -244,7 +245,7 @@ export const productsData: Record<string, Product[]> = {
       price: 80000,
       detail: "1kg Pack",
       tag: "COMING SOON",
-      img: "/pink guava frozen.webp",
+      img: "/Pink guava freze.webp",
       description: "Deskripsi untuk produk buah beku tambahan pertama.",
       benefits: ["Non-GMO", "Organic"],
     },
@@ -254,7 +255,7 @@ export const productsData: Record<string, Product[]> = {
       price: 70000,
       detail: "1kg Pack",
       tag: "COMING SOON",
-      img: "/pineapple frozen.webp",
+      img: "/Pineple freze.webp",
       description: "Deskripsi untuk produk buah beku tambahan kedua.",
       benefits: ["Non-GMO", "Vegan"],
     },

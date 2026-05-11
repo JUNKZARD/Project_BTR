@@ -63,7 +63,7 @@ export default function CatalogClient({ products, currentCategory }: CatalogClie
             {[
               { label: "280gr", value: "280" },
               { label: "145gr", value: "145" },
-              { label: "30gr", value: "30" },
+              { label: "50gr", value: "50" },
             ].map((size) => (
               <button
                 key={size.value}

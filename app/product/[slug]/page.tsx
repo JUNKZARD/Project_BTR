@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { allProducts, productsData } from "@/data/products";
 import OrderForm from "@/components/OrderForm";
+import Image from "next/image";
 
 export function generateStaticParams() {
   return allProducts.map((product) => ({
@@ -11,7 +12,9 @@ export function generateStaticParams() {
   }));
 }
 
-export default async function ProductPage(props: { params: Promise<{ slug: string }> }) {
+export default async function ProductPage(props: {
+  params: Promise<{ slug: string }>;
+}) {
   const params = await props.params;
   const product = allProducts.find((p) => p.slug === params.slug);
 
@@ -28,28 +31,42 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
     <main className="min-h-screen bg-[#FDFDFB] flex flex-col">
       <Navbar />
 
-      <div className="flex-grow max-w-7xl mx-auto px-6 py-12 md:py-20 w-full">
+      <div className="grow max-w-7xl mx-auto px-6 py-12 md:py-20 w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-start">
-          
           {/* Left Column: Image */}
-          <div className="relative aspect-[4/5] md:aspect-auto md:h-[600px] bg-[#EBE5F1] rounded-xl overflow-hidden flex items-center justify-center p-12 lg:p-16">
+          <div className="relative aspect-4/5 md:aspect-auto md:h-150 bg-[#EBE5F1] rounded-xl overflow-hidden flex items-center justify-center p-12 lg:p-16">
             {product.tag && (
               <span className="absolute top-6 left-6 bg-[#A7E2C7] text-green-900 text-[10px] font-bold px-3 py-1.5 rounded-full z-10 uppercase tracking-widest shadow-sm">
                 {product.tag}
               </span>
             )}
             {product.img ? (
-              <img 
-                src={product.img} 
-                alt={product.name} 
+              <Image
+                src={product.img}
+                alt={product.name}
                 className="w-full h-full object-contain hover:scale-105 transition duration-700 ease-in-out drop-shadow-xl"
+                width={500} // Adjust width as needed
+                height={500} // Adjust height as needed
               />
             ) : (
               <div className="w-full h-full flex flex-col items-center justify-center text-gray-400">
-                <svg className="w-16 h-16 mb-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                <svg
+                  className="w-16 h-16 mb-4 text-gray-300"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={1.5}
+                    d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+                  />
                 </svg>
-                <span className="text-sm font-bold uppercase tracking-widest">Image Coming Soon</span>
+                <span className="text-sm font-bold uppercase tracking-widest">
+                  Image Coming Soon
+                </span>
               </div>
             )}
           </div>
@@ -58,9 +75,16 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
           <div className="flex flex-col pt-4 md:pt-10">
             {/* Breadcrumb */}
             <div className="text-[10px] text-gray-400 uppercase tracking-[0.2em] font-bold mb-6 flex gap-2">
-              <Link href="/katalog" className="hover:text-gray-800 transition">SHOP</Link>
+              <Link href="/katalog" className="hover:text-gray-800 transition">
+                SHOP
+              </Link>
               <span>/</span>
-              <Link href={categoryLink} className="hover:text-gray-800 transition">{categoryName}</Link>
+              <Link
+                href={categoryLink}
+                className="hover:text-gray-800 transition"
+              >
+                {categoryName}
+              </Link>
             </div>
 
             {/* Title & Subtitle */}
@@ -68,17 +92,19 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
               {product.name}
             </h1>
             <p className="text-lg text-gray-500 italic mb-6">
-              {isJam ? "Traditional copper-kettle method" : "Flash-frozen at peak ripeness"}
+              {isJam
+                ? "Traditional copper-kettle method"
+                : "Flash-frozen at peak ripeness"}
             </p>
 
             {/* Price */}
             <div className="flex items-end gap-3 mb-6">
               <span className="text-3xl text-red-800 font-bold">
-                Rp {product.price.toLocaleString('id-ID')}
+                Rp {product.price.toLocaleString("id-ID")}
               </span>
               {product.originalPrice && (
                 <span className="text-lg text-gray-400 line-through pb-1">
-                  Rp {product.originalPrice.toLocaleString('id-ID')}
+                  Rp {product.originalPrice.toLocaleString("id-ID")}
                 </span>
               )}
             </div>
@@ -87,8 +113,8 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
             {product.benefits && product.benefits.length > 0 && (
               <div className="flex flex-wrap gap-2 mb-8">
                 {product.benefits.map((benefit, i) => (
-                  <span 
-                    key={i} 
+                  <span
+                    key={i}
                     className="bg-[#EAF5EF] text-green-800 text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wider"
                   >
                     {benefit}
@@ -106,7 +132,6 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
 
             {/* Order Form */}
             <OrderForm product={product} />
-
           </div>
         </div>
       </div>

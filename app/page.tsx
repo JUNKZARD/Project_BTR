@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const products = [
   {
-    slug: "Strawberry Jam",
+    slug: "strawberry-jam",
     name: "Strawberry Jam",
     price: 70000,
     tag: "TOP SELLER",
@@ -14,7 +14,7 @@ const products = [
     img: "/Strawberry 280.webp", 
   },
   {
-    slug: "Pink Guava Jam",
+    slug: "pink-guava-jam",
     name: "Pink Guava Jam",
     price: 70000,
     tag: "TOP SELLER",
@@ -22,7 +22,7 @@ const products = [
     img: "/Pink guava 280.webp",
   },
   {
-    slug: "Mulberry Jam",
+    slug: "mulberry-mix-jam",
     name: "Mulberry Jam",
     price: 70000,
     tag: "TOP SELLER",
@@ -30,7 +30,7 @@ const products = [
     img: "/Mulberry 280.webp", 
   },
   {
-    slug: "Mango Vanila jam",
+    slug: "mangga-vanilla-jam",
     name: "Mango Vanila Jam",
     price: 70000,
     tag: "TOP SELLER",

@@ -1,3 +1,4 @@
+export const dynamicParams = false;
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Link from "next/link";
@@ -102,11 +103,6 @@ export default async function ProductPage(props: {
               <span className="text-3xl text-red-800 font-bold">
                 Rp {product.price.toLocaleString("id-ID")}
               </span>
-              {product.originalPrice && (
-                <span className="text-lg text-gray-400 line-through pb-1">
-                  Rp {product.originalPrice.toLocaleString("id-ID")}
-                </span>
-              )}
             </div>
 
             {/* Benefits Tags */}

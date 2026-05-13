@@ -2,7 +2,6 @@ export interface Product {
   slug: string;
   name: string;
   price: number;
-  originalPrice?: number;
   detail: string;
   tag: string;
   img: string;
@@ -28,7 +27,6 @@ export const productsData: Record<string, Product[]> = {
       slug: "pink-guava-jam",
       name: "Pink Guava Jam",
       price: 70000,
-      originalPrice: 280000,
       detail: "280g Jar",
       tag: "",
       img: "/Pink guava 280.webp",
@@ -62,7 +60,6 @@ export const productsData: Record<string, Product[]> = {
       slug: "kintamani-orange-jam",
       name: "Kintamani Orange Jam",
       price: 70000,
-      originalPrice: 70000,
       detail: "280g Jar",
       tag: "",
       img: "/Kintamani 280.webp",
@@ -115,7 +112,7 @@ export const productsData: Record<string, Product[]> = {
       benefits: ["Non-GMO", "No Refined Sugar"],
     },
     {
-      slug: "Strawberry-jam",
+      slug: "strawberry-jam",
       name: "Strawberry Jam",
       price: 70000,
       detail: "280g Jar",
@@ -181,7 +178,7 @@ export const productsData: Record<string, Product[]> = {
       benefits: ["Non-GMO", "Organic", "Vegan"],
     },
     {
-      slug: "Strawberry-jam-145",
+      slug: "strawberry-jam-145",
       name: "Strawberry Jam (145g)",
       price: 42000,
       detail: "145g Jar",
@@ -191,7 +188,7 @@ export const productsData: Record<string, Product[]> = {
       benefits: [],
     },
     {
-      slug: "Mangga vanila",
+      slug: "mangga-vanila",
       name: "Mangga vanila (145g)",
       price: 42000,
       detail: "145g Jar",
@@ -201,7 +198,7 @@ export const productsData: Record<string, Product[]> = {
       benefits: [],
     },
     {
-      slug: "Mulberry",
+      slug: "mulberry",
       name: "Mulberry (145g)",
       price: 42000,
       detail: "145g Jar",
@@ -211,7 +208,7 @@ export const productsData: Record<string, Product[]> = {
       benefits: [],
     },
     {
-      slug: "Lemon marmalade",
+      slug: "lemon-marmalade",
       name: "Lemon marmalade (145g)",
       price: 42000,
       detail: "145g Jar",
@@ -221,7 +218,7 @@ export const productsData: Record<string, Product[]> = {
       benefits: [],
     },
     {
-      slug: "Manggo passion fruit jam",
+      slug: "manggo-passion-fruit-jam",
       name: "Manggo passion fruit jam (145g)",
       price: 42000,
       detail: "145g Jar",
@@ -231,7 +228,7 @@ export const productsData: Record<string, Product[]> = {
       benefits: [],
     },
     {
-      slug: "Kintamani Orange jam 145",
+      slug: "kintamani-orange-jam-145",
       name: "Kintamani Orange jam (145g)",
       price: 42000,
       detail: "145g Jar",
@@ -285,7 +282,7 @@ export const productsData: Record<string, Product[]> = {
   ],
   frozen: [
     {
-      slug: "Blueberries-Frozen",
+      slug: "blueberries-frozen",
       name: "Blueberries Frozen",
       price: 135000,
       detail: "1 Kg Pack",
@@ -296,7 +293,7 @@ export const productsData: Record<string, Product[]> = {
       benefits: ["Non-GMO", "Organic", "Raw"],
     },
     {
-      slug: "Mango Frozen",
+      slug: "mango-frozen",
       name: "Mango Frozen",
       price: 85000,
       detail: "1 Kg Pack",
@@ -318,7 +315,7 @@ export const productsData: Record<string, Product[]> = {
       benefits: ["Non-GMO", "Organic", "Raw"],
     },
     {
-      slug: "Kintamani-Orange-Frozen",
+      slug: "kintamani-orange-frozen",
       name: "Kintamani Orange Frozen",
       price: 90000,
       detail: "1kg Pack",
@@ -329,7 +326,7 @@ export const productsData: Record<string, Product[]> = {
       benefits: ["Non-GMO", "No Added Sugar", "Small Batch"],
     },
     {
-      slug: "Pink Guava Frozen",
+      slug: "pink-guava-frozen",
       name: "Pink Guava Frozen",
       price: 80000,
       detail: "1kg Pack",
@@ -339,7 +336,7 @@ export const productsData: Record<string, Product[]> = {
       benefits: ["Non-GMO", "Organic"],
     },
     {
-      slug: "Pinneapple Frozen",
+      slug: "pineapple-frozen",
       name: "Pinneapple Frozen",
       price: 70000,
       detail: "1kg Pack",

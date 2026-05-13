@@ -35,9 +35,9 @@ export default function Hero() {
               <Link href="/katalog" className="bg-red-800 text-white px-8 py-3 rounded-full text-base font-bold hover:bg-red-900 transition shadow-md text-center">
                 Shop the Collection
               </Link>
-              <button className="border border-gray-400 text-gray-700 px-8 py-3 rounded-full text-base font-bold hover:bg-white transition shadow-sm">
-                Explore Flavors
-              </button>
+              <Link href="/katalog" className="border border-gray-400 text-gray-700 px-8 py-3 rounded-full text-base font-bold hover:bg-white transition shadow-sm">
+              Explore Flavors
+              </Link>
             </div>
           </div>
 

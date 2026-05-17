@@ -8,7 +8,7 @@ export default function Footer() {
             Organic Harvest
           </h4>
           <p className="leading-relaxed">
-            Cultivating taste, naturally since 1924. Our jams represent the
+            Cultivating taste, naturally since 2017. Our jams represent the
             finest traditions of artisanal preservation.
           </p>
           <div className="flex gap-4 pt-2">
@@ -94,7 +94,7 @@ export default function Footer() {
 
       <div className="mt-20 text-center border-t border-gray-200 pt-8">
         <p className="text-[10px] text-gray-400 tracking-widest uppercase">
-          © 2024 Bali Taru Rahayu. Cultivating taste, naturally.
+          © 2026 Bali Taru Rahayu. Cultivating taste, naturally.
         </p>
       </div>
     </footer>

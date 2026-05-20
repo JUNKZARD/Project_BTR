@@ -134,6 +134,7 @@ export const productsData: Record<string, Product[]> = {
       benefits: ["Non-GMO", "No Refined Sugar", "Vegan"],
     },
     {
+<<<<<<< Updated upstream
       slug: "kintamani-orange-marmalade-280",
       name: "Kintamani Orange Marmalade (280g)",
       price: 70000,
@@ -142,6 +143,17 @@ export const productsData: Record<string, Product[]> = {
       img: "/kintamani orange marmalde 280.webp",
       description: "Description coming soon.",
       benefits: [],
+=======
+      slug: "Kintamani Marmalade Jam",
+      name: "Kintamani Marmalade Jam",
+      price: 70000,
+      detail: "280g Jar",
+      tag: "",
+      img: "kintamani marmalade 280.webp",
+      description:
+        "Made from the famous sweet Kintamani oranges, this marmalade-style jam brings a bright, citrusy zest with a beautifully balanced sweetness.",
+      benefits: ["Non-GMO", "No Refined Sugar", "Vegan"],
+>>>>>>> Stashed changes
     },
     //selai 145gr
     {
@@ -238,9 +250,15 @@ export const productsData: Record<string, Product[]> = {
       benefits: [],
     },
     {
+<<<<<<< Updated upstream
       slug: "placeholder-jam-145-7",
       name: "Durian (145g)",
       price: 50000,
+=======
+      slug: "Durian jam 145",
+      name: "Durian jam (145g)",
+      price: 42000,
+>>>>>>> Stashed changes
       detail: "145g Jar",
       tag: "COMING SOON",
       img: "",
@@ -248,6 +266,7 @@ export const productsData: Record<string, Product[]> = {
       benefits: [],
     },
     {
+<<<<<<< Updated upstream
       slug: "placeholder-jam-145-8",
       name: "Mango jam(145g)",
       price: 42000,
@@ -259,11 +278,14 @@ export const productsData: Record<string, Product[]> = {
     },
       {
       slug: "placeholder-jam-145-8",
+=======
+      slug: "Pineapple jam 145",
+>>>>>>> Stashed changes
       name: "Pineapple jam (145g)",
       price: 42000,
       detail: "145g Jar",
       tag: "COMING SOON",
-      img: "",
+      img: "/Pineapple Jam 145g.webp",
       description: "Description coming soon.",
       benefits: [],
     },

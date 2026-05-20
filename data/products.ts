@@ -139,7 +139,7 @@ export const productsData: Record<string, Product[]> = {
       price: 70000,
       detail: "280g Jar",
       tag: "",
-      img: "kintamani marmalade 280.webp",
+      img: "/kintamani marmalade 280.webp",
       description:
         "Made from the famous sweet Kintamani oranges, this marmalade-style jam brings a bright, citrusy zest with a beautifully balanced sweetness.",
       benefits: ["Non-GMO", "No Refined Sugar", "Vegan"],
@@ -255,7 +255,7 @@ export const productsData: Record<string, Product[]> = {
       detail: "145g Gram",
       tag: "COMING SOON",
       img: "",
-      description: "Description coming soon.",
+      description: "",
       benefits: [],
     },
     {
@@ -263,9 +263,9 @@ export const productsData: Record<string, Product[]> = {
       name: "Pineapple jam (145g)",
       price: 42000,
       detail: "145g Jar",
-      tag: "COMING SOON",
-      img: "/Pineapple Jam 145g.webp",
-      description: "Description coming soon.",
+      tag: "",
+      img: "/Pineapple Jam 145g .webp",
+      description: "",
       benefits: [],
     },
     //selai 50gr (mini)
@@ -275,7 +275,7 @@ export const productsData: Record<string, Product[]> = {
       price: 35000,
       detail: "30g Jar",
       tag: "GIFT SET",
-      img: "/Box of 3 (2).webp",
+      img: "/box 3 145.webp",
       description:
         "A delightful set of our most popular jams in miniature 30g jars. Perfect for gifting or tasting.",
       benefits: ["Non-GMO", "Vegan"],

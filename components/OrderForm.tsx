@@ -28,7 +28,6 @@ Mohon info untuk proses selanjutnya. Terima kasih!`;
 
   return (
     <div className="mt-8 space-y-6">
-      {/* Buy Button (WhatsApp) */}
       <button 
         onClick={handleOrder}
         className="bg-red-800 text-white rounded-full px-8 py-4 text-base font-bold hover:bg-red-900 transition shadow-sm w-full"

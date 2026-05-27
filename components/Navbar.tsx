@@ -128,7 +128,7 @@ export default function Navbar() {
                 GrabFood
               </a>
               <a 
-                href="https://wa.me/6283114871638" 
+                href="https://wa.me/628113310238" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-green-700 transition text-[10px] tracking-widest"

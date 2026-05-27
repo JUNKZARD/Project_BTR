@@ -8,7 +8,7 @@ interface OrderFormProps {
 
 export default function OrderForm({ product }: OrderFormProps) {
   const handleOrder = () => {
-    const phoneNumber = "628113310238"; 
+    const phoneNumber = "+62 811-3310-238"; 
     const baseUrl = window.location.origin;
     const imageUrl = encodeURI(`${baseUrl}${product.img}`);
     

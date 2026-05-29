@@ -260,24 +260,14 @@ export const productsData: Record<string, Product[]> = {
     },
     //selai 50gr (mini)
     {
-      slug: "mini-jam-gift-set-3-30",
-      name: "Mini Jam Set (3 Pack)",
-      price: 35000,
-      detail: "30g Jar",
-      tag: "GIFT SET",
-      img: "/box 3 145.webp",
-      description:
-        "A delightful set of our most popular jams in miniature 30g jars. Perfect for gifting or tasting.",
-      benefits: ["Non-GMO", "Vegan"],
-    },
-    {
       slug: "box-4-50",
-      name: "Box of 4 (50g)",
-      price: 50000,
+      name: "Box of 4 (30g)",
+      price: 100000,
       detail: "50g Jar",
       tag: "GIFT SET",
-      img: "/box 4 50 .webp",
-      description: "Description coming soon.",
+      img: "/produk 4 new.webp",
+      description:
+        " A curated selection of our most beloved jams in a convenient 4-pack. Perfect for gifting or sampling our range of flavors.",
       benefits: [],
     },
   ],

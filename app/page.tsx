@@ -11,7 +11,7 @@ const products = [
     price: 70000,
     tag: "TOP SELLER",
     subTag: "NO SUGAR ADDED",
-    img: "/Strawberry 280.webp", 
+    img: "/Strawberry 280.webp",
   },
   {
     slug: "pink-guava-jam",
@@ -27,7 +27,7 @@ const products = [
     price: 70000,
     tag: "TOP SELLER",
     subTag: "NO SUGAR ADDED",
-    img: "/Mulberry 280.webp", 
+    img: "/Mulberry 280.webp",
   },
   {
     slug: "mangga-vanilla-jam",

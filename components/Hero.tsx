@@ -10,7 +10,6 @@ export default function Hero() {
           alt="Background Hero"
           className="w-full h-full object-cover opacity-60 pointer-events-none"
         />
-        {/* disesuaikan untuk tampilan mobile (vertikal) dan desktop (horizontal) */}
         <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-white/80 to-white md:bg-none md:bg-gradient-to-r md:from-white/90 md:via-white/50 md:to-transparent pointer-events-none"></div>
       </div>
 

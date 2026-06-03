@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="bg-[#F9F9F7] pt-20 pb-10 border-t border-gray-100">
@@ -26,14 +28,20 @@ export default function Footer() {
           </h4>
           <ul className="space-y-3 text-xs">
             <li>
-              <a href="/katalog/jams" className="hover:text-red-800 transition">
+              <Link
+                href="/katalog/jams"
+                className="hover:text-red-800 transition"
+              >
                 Shop Jams
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/katalog/frozen" className="hover:text-red-800 transition">
+              <Link
+                href="/katalog/frozen"
+                className="hover:text-red-800 transition"
+              >
                 Frozen Fruit
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

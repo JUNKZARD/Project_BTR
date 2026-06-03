@@ -29,7 +29,7 @@ export const productsData: Record<string, Product[]> = {
       price: 70000,
       detail: "280g Jar",
       tag: "",
-      img: "/Pink guava 280.webp",
+      img: "/pinkguava 280 new.webp",
       description:
         "Sweet, tropical pink guava reduced slowly to capture its vibrant aroma and natural sweetness. Perfect on toasted sourdough or mixed into yogurt.",
       benefits: ["Non-GMO", "No Refined Sugar", "Vegan"],
@@ -51,7 +51,7 @@ export const productsData: Record<string, Product[]> = {
       price: 70000,
       detail: "280g Jar",
       tag: "",
-      img: "/Mulberry 280.webp",
+      img: "/mullberry mix 280 new.webp",
       description:
         "A rich, complex mix of locally grown mulberries and complementary berries, offering a perfect balance of tartness and natural sweetness.",
       benefits: ["Non-GMO", "No Refined Sugar"],
@@ -73,7 +73,7 @@ export const productsData: Record<string, Product[]> = {
       price: 70000,
       detail: "280g Jar",
       tag: "",
-      img: "/Mango Lemongrass 280.webp",
+      img: "/mango lemongrass 280 new.webp",
       description:
         "An exotic fusion of ripe mangoes and fragrant lemongrass. This unique jam offers a refreshing, aromatic twist on a tropical classic.",
       benefits: ["Non-GMO", "No Refined Sugar", "Small Batch"],
@@ -185,7 +185,8 @@ export const productsData: Record<string, Product[]> = {
       detail: "145g Jar",
       tag: "",
       img: "/Strawberry 145.webp",
-      description: "A signature blend of mountain berries slow-cooked to perfection. Sweet, slightly tart, and incredibly versatile.",
+      description:
+        "A signature blend of mountain berries slow-cooked to perfection. Sweet, slightly tart, and incredibly versatile.",
       benefits: [],
     },
     {
@@ -195,7 +196,8 @@ export const productsData: Record<string, Product[]> = {
       detail: "145g Jar",
       tag: "",
       img: "/Mangvan 145.webp",
-      description: "Smooth mango jam infused with real vanilla bean. A decadent, creamy flavor profile that feels like dessert.",
+      description:
+        "Smooth mango jam infused with real vanilla bean. A decadent, creamy flavor profile that feels like dessert.",
       benefits: [],
     },
     {
@@ -205,7 +207,8 @@ export const productsData: Record<string, Product[]> = {
       detail: "145g Jar",
       tag: "",
       img: "/mulberry 145.webp",
-      description: "A rich, complex mix of locally grown mulberries and complementary berries, offering a perfect balance of tartness and natural sweetness.",
+      description:
+        "A rich, complex mix of locally grown mulberries and complementary berries, offering a perfect balance of tartness and natural sweetness.",
       benefits: [],
     },
     {
@@ -235,7 +238,8 @@ export const productsData: Record<string, Product[]> = {
       detail: "145g Jar",
       tag: "",
       img: "/kintamani 145.webp",
-      description: "Made from the famous sweet Kintamani oranges, this marmalade-style jam brings a bright, citrusy zest with a beautifully balanced sweetness.",
+      description:
+        "Made from the famous sweet Kintamani oranges, this marmalade-style jam brings a bright, citrusy zest with a beautifully balanced sweetness.",
       benefits: [],
     },
     {

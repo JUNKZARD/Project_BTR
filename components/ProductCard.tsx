@@ -36,20 +36,30 @@ export default function ProductCard({
             Coming Soon
           </div>
         )}
-        
+
         {/* Buy Button Overlay */}
         <span className="absolute bottom-4 right-4 bg-red-800 text-white px-4 py-2 rounded-full shadow-md group-hover:bg-red-900 transition-colors z-20 text-xs font-bold flex items-center gap-1">
           Buy
-          <svg className="w-3 h-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+          <svg
+            className="w-3 h-3 group-hover:translate-x-1 transition-transform"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M14 5l7 7m0 0l-7 7m7-7H3"
+            />
           </svg>
         </span>
       </div>
       <div className="mt-5 space-y-1">
-        <h3 className="text-lg text-gray-900 leading-tight">
-          {name}
-        </h3>
-        <p className="text-red-800 font-bold text-sm">Rp {price.toLocaleString('id-ID')}</p>
+        <h3 className="text-lg text-gray-900 leading-tight">{name}</h3>
+        <p className="text-red-800 font-bold text-sm">
+          Rp {price.toLocaleString("id-ID")}
+        </p>
         <p className="text-[10px] pt-1 text-green-700 font-extrabold tracking-widest uppercase">
           {subTag}
         </p>

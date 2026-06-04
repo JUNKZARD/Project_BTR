@@ -267,7 +267,7 @@ export const productsData: Record<string, Product[]> = {
       slug: "box-4-50",
       name: "Box of 4 (30g)",
       price: 100000,
-      detail: "50g Jar",
+      detail: "30g Jar",
       tag: "GIFT SET",
       img: "/produk 4 new.webp",
       description:

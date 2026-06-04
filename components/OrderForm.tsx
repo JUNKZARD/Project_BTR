@@ -8,14 +8,14 @@ interface OrderFormProps {
 
 export default function OrderForm({ product }: OrderFormProps) {
   const handleOrder = () => {
-    const phoneNumber = "+62 811-3310-238";
+    const phoneNumber = "628113310238";
     const baseUrl = window.location.origin;
     const imageUrl = encodeURI(`${baseUrl}${product.img}`);
 
     const message = `Halo, saya tertarik untuk membeli produk berikut:
 *${product.name}*
 Ukuran: ${product.detail}
-Harga: $${product.price.toFixed(2)}
+Harga: Rp${product.price.toFixed(2)}
 Link Gambar: ${imageUrl}
 
 Mohon info untuk proses selanjutnya. Terima kasih!`;

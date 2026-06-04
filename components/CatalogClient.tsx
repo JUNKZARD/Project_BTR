@@ -10,10 +10,13 @@ interface CatalogClientProps {
   currentCategory: "all" | "jams" | "frozen";
 }
 
-export default function CatalogClient({ products, currentCategory }: CatalogClientProps) {
+export default function CatalogClient({
+  products,
+  currentCategory,
+}: CatalogClientProps) {
   const [selectedSize, setSelectedSize] = useState<string | null>(null);
 
-  const filteredProducts = products.filter(product => {
+  const filteredProducts = products.filter((product) => {
     if (!selectedSize) return true;
     return product.detail && product.detail.includes(selectedSize);
   });
@@ -63,11 +66,15 @@ export default function CatalogClient({ products, currentCategory }: CatalogClie
             {[
               { label: "280gr", value: "280" },
               { label: "145gr", value: "145" },
-              { label: "50gr", value: "50" },
+              { label: "30gr", value: "30" },
             ].map((size) => (
               <button
                 key={size.value}
-                onClick={() => setSelectedSize(selectedSize === size.value ? null : size.value)}
+                onClick={() =>
+                  setSelectedSize(
+                    selectedSize === size.value ? null : size.value
+                  )
+                }
                 className={`px-4 py-2 shrink-0 text-[10px] uppercase tracking-widest rounded-full font-bold transition ${
                   selectedSize === size.value
                     ? "bg-gray-800 text-white shadow-md"
@@ -98,8 +105,10 @@ export default function CatalogClient({ products, currentCategory }: CatalogClie
           </div>
         ) : (
           <div className="text-center py-20 bg-gray-50 rounded-2xl border border-gray-100">
-            <p className="text-gray-500 text-sm mb-3">No products match the selected size.</p>
-            <button 
+            <p className="text-gray-500 text-sm mb-3">
+              No products match the selected size.
+            </p>
+            <button
               onClick={() => setSelectedSize(null)}
               className="px-6 py-2 bg-white border border-gray-200 text-gray-700 text-[10px] uppercase tracking-widest rounded-full font-bold shadow-sm hover:bg-gray-50 transition"
             >

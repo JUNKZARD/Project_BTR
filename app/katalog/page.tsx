@@ -13,7 +13,8 @@ export default function KatalogPage() {
           Bali Taru Rahayu Collections
         </h1>
         <p className="text-gray-500 max-w-2xl text-sm leading-relaxed mx-auto lg:mx-0">
-          Discover all our premium quality products, from fresh frozen fruits to traditional copper-kettle jams.
+          Discover all our premium quality products, from fresh fruits with
+          processed hygienically using food-grade stainless steel equipment
         </p>
       </header>
 

@@ -10,7 +10,7 @@ const products = [
     name: "Strawberry Jam",
     price: 70000,
     tag: "TOP SELLER",
-    subTag: "NO SUGAR ADDED",
+    subTag: "",
     img: "/Strawberry 280.webp",
   },
   {
@@ -18,7 +18,7 @@ const products = [
     name: "Pink Guava Jam",
     price: 70000,
     tag: "TOP SELLER",
-    subTag: "NO SUGAR ADDED",
+    subTag: "",
     img: "/pinkguava 280 new.webp",
   },
   {
@@ -26,7 +26,7 @@ const products = [
     name: "Mulberry Jam",
     price: 70000,
     tag: "TOP SELLER",
-    subTag: "NO SUGAR ADDED",
+    subTag: "",
     img: "/mullberry mix 280 new.webp",
   },
   {
@@ -34,7 +34,7 @@ const products = [
     name: "Mango Vanila Jam",
     price: 70000,
     tag: "TOP SELLER",
-    subTag: "NO SUGAR ADDED",
+    subTag: "",
     img: "/Manggo vanila 280.webp",
   },
 ];

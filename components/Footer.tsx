@@ -10,7 +10,7 @@ export default function Footer() {
             Organic Harvest
           </h4>
           <p className="leading-relaxed">
-            Cultivating taste, naturally since 2017. Our jams represent the
+            Cultivating taste, naturally since 2019. Our jams represent the
             finest traditions of artisanal preservation.
           </p>
           <div className="flex gap-4 pt-2">

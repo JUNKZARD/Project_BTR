@@ -32,9 +32,7 @@ export default function ProductCard({
             className="w-full h-full object-contain group-hover:scale-105 transition duration-700 ease-in-out drop-shadow-sm"
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center text-gray-400 text-xs font-bold uppercase tracking-widest">
-            Coming Soon
-          </div>
+          <div className="w-full h-full flex items-center justify-center text-gray-400 text-xs font-bold uppercase tracking-widest"></div>
         )}
 
         {/* Buy Button Overlay */}

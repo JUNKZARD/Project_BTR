@@ -6,26 +6,27 @@ import { productsData } from "@/data/products";
 
 // Function to tell Next.js which paths to generate for static export
 export function generateStaticParams() {
-  return [
-    { category: "jams" },
-    { category: "frozen" },
-  ];
+  return [{ category: "jams" }, { category: "frozen" }];
 }
 
-export default async function CategoryPage(props: { params: Promise<{ category: string }> }) {
+export default async function CategoryPage(props: {
+  params: Promise<{ category: string }>;
+}) {
   const params = await props.params;
   const category = params.category;
-  
+
   if (category !== "jams" && category !== "frozen") {
     notFound();
   }
 
   const products = productsData[category as keyof typeof productsData] || [];
-  
-  const title = category === "jams" ? "Jams Collections" : "Frozen Fruit Collections";
-  const subtitle = category === "jams" 
-    ? "Hand-picked at the peak of ripeness and preserved using traditional copper-kettle methods to capture the pure essence of the harvest."
-    : "Freshly picked and flash-frozen to lock in nutrients and flavor.";
+
+  const title =
+    category === "jams" ? "Jams Collections" : "Frozen Fruit Collections";
+  const subtitle =
+    category === "jams"
+      ? "from fresh fruits with processed hygienically using food-grade stainless steel equipment"
+      : "Freshly picked and flash-frozen to lock in nutrients and flavor.";
 
   return (
     <main className="min-h-screen bg-[#FDFDFB]">
@@ -40,7 +41,10 @@ export default async function CategoryPage(props: { params: Promise<{ category: 
         </p>
       </header>
 
-      <CatalogClient products={products} currentCategory={category as "jams" | "frozen"} />
+      <CatalogClient
+        products={products}
+        currentCategory={category as "jams" | "frozen"}
+      />
 
       <Footer />
     </main>

@@ -17,22 +17,22 @@ export const productsData: Record<string, Product[]> = {
       name: "Durian Jam",
       price: 80000,
       detail: "280g Jar",
-      tag: "SMALL BATCH",
+      tag: "",
       img: "/Durian 280.webp",
       description:
         "Our Durian Jam is crafted using hand-foraged durians from high-altitude slopes. We slow-simmer each batch in copper kettles with organic wildflower honey and a hint of lemon zest to preserve the vibrant, tart soul of the fruit.",
-      benefits: ["Non-GMO", "No Refined Sugar", "Small Batch"],
+      benefits: ["Non-GMO", "Natural"],
     },
     {
       slug: "pink-guava-jam",
       name: "Pink Guava Jam",
       price: 70000,
       detail: "280g Jar",
-      tag: "",
+      tag: "TOP SELLER",
       img: "/pinkguava 280 new.webp",
       description:
         "Sweet, tropical pink guava reduced slowly to capture its vibrant aroma and natural sweetness. Perfect on toasted sourdough or mixed into yogurt.",
-      benefits: ["Non-GMO", "No Refined Sugar", "Vegan"],
+      benefits: ["Non-GMO", "Vegan"],
     },
     {
       slug: "pineapple-jam",
@@ -43,18 +43,18 @@ export const productsData: Record<string, Product[]> = {
       img: "/Pineapple.webp",
       description:
         "Sun-ripened pineapples from Bali cooked down to a sweet, tangy spread. A bright, tropical burst of flavor for your morning toast.",
-      benefits: ["Non-GMO", "Organic", "Vegan"],
+      benefits: ["Non-GMO", "Natural", "Vegan"],
     },
     {
       slug: "mulberry-mix-jam",
       name: "Mulberry Mix Jam",
       price: 70000,
       detail: "280g Jar",
-      tag: "",
+      tag: "TOP SELLER",
       img: "/mullberry mix 280 new.webp",
       description:
         "A rich, complex mix of locally grown mulberries and complementary berries, offering a perfect balance of tartness and natural sweetness.",
-      benefits: ["Non-GMO", "No Refined Sugar"],
+      benefits: ["Non-GMO", "Natural"],
     },
     {
       slug: "kintamani-orange-jam",
@@ -65,7 +65,7 @@ export const productsData: Record<string, Product[]> = {
       img: "/Kintamani 280.webp",
       description:
         "Made from the famous sweet Kintamani oranges, this marmalade-style jam brings a bright, citrusy zest with a beautifully balanced sweetness.",
-      benefits: ["Non-GMO", "Organic", "Vegan"],
+      benefits: ["Non-GMO", "Natural", "Vegan"],
     },
     {
       slug: "mangga-lemongrass-jam",
@@ -76,7 +76,7 @@ export const productsData: Record<string, Product[]> = {
       img: "/mango lemongrass 280 new.webp",
       description:
         "An exotic fusion of ripe mangoes and fragrant lemongrass. This unique jam offers a refreshing, aromatic twist on a tropical classic.",
-      benefits: ["Non-GMO", "No Refined Sugar", "Small Batch"],
+      benefits: ["Non-GMO", "Small Batch"],
     },
     {
       slug: "mangga-passion-fruit-jam",
@@ -87,7 +87,7 @@ export const productsData: Record<string, Product[]> = {
       img: "/Manggo passion 280.webp",
       description:
         "The sweetness of mango perfectly balanced by the sharp, tangy brightness of fresh passion fruit.",
-      benefits: ["Non-GMO", "Organic", "Vegan"],
+      benefits: ["Non-GMO", "Natural", "Vegan"],
     },
     {
       slug: "mangga-jam",
@@ -105,22 +105,22 @@ export const productsData: Record<string, Product[]> = {
       name: "Mangga Vanilla Jam",
       price: 70000,
       detail: "280g Jar",
-      tag: "",
+      tag: "TOP SELLER",
       img: "/Manggo vanila 280.webp",
       description:
         "Smooth mango jam infused with real vanilla bean. A decadent, creamy flavor profile that feels like dessert.",
-      benefits: ["Non-GMO", "No Refined Sugar"],
+      benefits: ["Non-GMO"],
     },
     {
       slug: "strawberry-jam",
       name: "Strawberry Jam",
       price: 70000,
       detail: "280g Jar",
-      tag: "",
+      tag: "TOP SELLER",
       img: "/Strawberry 280.webp",
       description:
         "A signature blend of mountain berries slow-cooked to perfection. Sweet, slightly tart, and incredibly versatile.",
-      benefits: ["Non-GMO", "Organic", "Small Batch"],
+      benefits: ["Non-GMO", "Natural"],
     },
     {
       slug: "blueberry-mix-jam",
@@ -131,7 +131,7 @@ export const productsData: Record<string, Product[]> = {
       img: "/Blueberry 280.webp",
       description:
         "A robust mixture of wild blueberries and dark fruits. Rich in antioxidants and deep in flavor.",
-      benefits: ["Non-GMO", "No Refined Sugar", "Vegan"],
+      benefits: ["Non-GMO", "Natural"],
     },
     {
       slug: "Kintamani Marmalade Jam",
@@ -142,7 +142,7 @@ export const productsData: Record<string, Product[]> = {
       img: "/kintamani marmalade 280.webp",
       description:
         "Made from the famous sweet Kintamani oranges, this marmalade-style jam brings a bright, citrusy zest with a beautifully balanced sweetness.",
-      benefits: ["Non-GMO", "No Refined Sugar", "Vegan"],
+      benefits: ["Non-GMO", "Natural"],
     },
     //selai 145gr
     {
@@ -154,7 +154,7 @@ export const productsData: Record<string, Product[]> = {
       img: "/Pink guava 145.webp",
       description:
         "Sweet, tropical pink guava reduced slowly to capture its vibrant aroma and natural sweetness.",
-      benefits: ["Non-GMO", "No Refined Sugar", "Vegan"],
+      benefits: ["Non-GMO", "Natural"],
     },
     {
       slug: "blueberry-mix-jam-145",
@@ -165,7 +165,7 @@ export const productsData: Record<string, Product[]> = {
       img: "/Blueberry 145.webp",
       description:
         "A robust mixture of wild blueberries and dark fruits. Rich in antioxidants and deep in flavor.",
-      benefits: ["Non-GMO", "No Refined Sugar", "Vegan"],
+      benefits: ["Non-GMO", "Natural"],
     },
     {
       slug: "mangga-passion-fruit-jam-145",
@@ -176,7 +176,7 @@ export const productsData: Record<string, Product[]> = {
       img: "/Manggo passion 280.webp",
       description:
         "The sweetness of mango perfectly balanced by the sharp, tangy brightness of fresh passion fruit.",
-      benefits: ["Non-GMO", "Organic", "Vegan"],
+      benefits: ["Non-GMO", "Natural", "Vegan"],
     },
     {
       slug: "strawberry-jam-145",
@@ -187,7 +187,7 @@ export const productsData: Record<string, Product[]> = {
       img: "/Strawberry 145.webp",
       description:
         "A signature blend of mountain berries slow-cooked to perfection. Sweet, slightly tart, and incredibly versatile.",
-      benefits: [],
+      benefits: ["Natural", "Non-GMO"],
     },
     {
       slug: "mangga-vanila",
@@ -198,7 +198,7 @@ export const productsData: Record<string, Product[]> = {
       img: "/Mangvan 145.webp",
       description:
         "Smooth mango jam infused with real vanilla bean. A decadent, creamy flavor profile that feels like dessert.",
-      benefits: [],
+      benefits: ["Non-GMO"],
     },
     {
       slug: "mulberry",
@@ -209,7 +209,7 @@ export const productsData: Record<string, Product[]> = {
       img: "/mulberry 145.webp",
       description:
         "A rich, complex mix of locally grown mulberries and complementary berries, offering a perfect balance of tartness and natural sweetness.",
-      benefits: [],
+      benefits: ["Natural", "Non-GMO"],
     },
     {
       slug: "lemon-marmalade",
@@ -219,7 +219,7 @@ export const productsData: Record<string, Product[]> = {
       tag: "",
       img: "/Lemon marmalade 145.webp",
       description: "",
-      benefits: [],
+      benefits: ["Natural", "Vegan"],
     },
     {
       slug: "manggo-passion-fruit-jam",
@@ -228,8 +228,8 @@ export const productsData: Record<string, Product[]> = {
       detail: "145g Jar",
       tag: "",
       img: "/Mangpass145.webp",
-      description: "Description coming soon.",
-      benefits: [],
+      description: "",
+      benefits: ["Natural", "Vegan"],
     },
     {
       slug: "kintamani-orange-jam-145",
@@ -240,7 +240,7 @@ export const productsData: Record<string, Product[]> = {
       img: "/kintamani 145.webp",
       description:
         "Made from the famous sweet Kintamani oranges, this marmalade-style jam brings a bright, citrusy zest with a beautifully balanced sweetness.",
-      benefits: [],
+      benefits: ["Natural", "Non-GMO"],
     },
     {
       slug: "placeholder-jam-145-8",
@@ -250,7 +250,7 @@ export const productsData: Record<string, Product[]> = {
       tag: "",
       img: "/mango jam 145g.webp",
       description: "",
-      benefits: [],
+      benefits: ["Natural"],
     },
     {
       slug: "Pineapple jam 145",
@@ -260,7 +260,7 @@ export const productsData: Record<string, Product[]> = {
       tag: "",
       img: "/Pineapple Jam 145g .webp",
       description: "",
-      benefits: [],
+      benefits: ["Natural"],
     },
     //selai 50gr (mini)
     {
@@ -296,7 +296,7 @@ export const productsData: Record<string, Product[]> = {
       img: "/Mango freze.webp",
       description:
         "Perfectly ripe mangoes, peeled, sliced, and frozen. The ultimate convenience for smoothies, desserts, or healthy snacking.",
-      benefits: ["Non-GMO", "No Added Sugar", "Vegan"],
+      benefits: ["Non-GMO", "Natural"],
     },
     {
       slug: "frozen-raspberries",
@@ -307,7 +307,7 @@ export const productsData: Record<string, Product[]> = {
       img: "/rasberries freze.webp",
       description:
         "Delicate raspberries preserved at the height of freshness. Excellent for baking or blending.",
-      benefits: ["Non-GMO", "Organic", "Raw"],
+      benefits: ["Non-GMO", "Natural", "Raw"],
     },
     {
       slug: "kintamani-orange-frozen",
@@ -318,7 +318,7 @@ export const productsData: Record<string, Product[]> = {
       img: "/Kintamani orange freze.webp",
       description:
         "Freshly segmented Kintamani oranges, frozen to preserve their bright, juicy characteristics without any preservatives.",
-      benefits: ["Non-GMO", "No Added Sugar", "Small Batch"],
+      benefits: ["Non-GMO", "Natural"],
     },
     {
       slug: "pink-guava-frozen",
@@ -328,7 +328,7 @@ export const productsData: Record<string, Product[]> = {
       tag: "",
       img: "/Pink guava freze.webp",
       description: "Deskripsi untuk produk buah beku tambahan pertama.",
-      benefits: ["Non-GMO", "Organic"],
+      benefits: ["Non-GMO", "Natural"],
     },
     {
       slug: "pineapple-frozen",
@@ -338,7 +338,7 @@ export const productsData: Record<string, Product[]> = {
       tag: "",
       img: "/Pineple freze.webp",
       description: "Deskripsi untuk produk buah beku tambahan kedua.",
-      benefits: ["Non-GMO", "Vegan"],
+      benefits: ["Non-GMO", "Natural"],
     },
   ],
 };
